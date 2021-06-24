@@ -1,4 +1,4 @@
-# Privacy_Preserving_StockExchange_SmartContract
+# Privacy-Preserving Stock Exchange SmartContract
 This is a Solidiy code for a privacy-preserving Smart-contract.
 For simplicity we assume that investors trade one type of share.
 
