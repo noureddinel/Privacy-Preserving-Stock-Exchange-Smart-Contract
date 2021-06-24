@@ -10,7 +10,7 @@ For simplicity we assume that investors trade one type of share.
 3- Simulate a trade by calling buyShares and sellShares function.
 
 ## Authors
-This is part of a research work at Hamed Bin Khalifa University (HBKU)
+This is part of a research work made at Hamed Bin Khalifa University (HBKU)
 
 @uthors:
 
