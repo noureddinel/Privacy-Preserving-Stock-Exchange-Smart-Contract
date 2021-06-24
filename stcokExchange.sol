@@ -77,7 +77,7 @@ contract StockExchange {
     function lockAccounts() public
         csdOnly()
     {
-        for (uint i; i<accounts.length; i++) {
+        for (uint i = 0; i < accounts.length; i ++) {
             accounts[i].lock = true;
         }
     }
