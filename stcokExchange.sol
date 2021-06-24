@@ -73,6 +73,14 @@ contract StockExchange {
     {
         storeAndLogNewNiN(_anonNin, _shareQty);
     }  
+    
+    function lockAccounts() public
+        csdOnly()
+    {
+        for (uint i; i<accounts.length; i++) {
+            accounts[i].lock = true;
+        }
+    }
 
     function buyShares( uint _buyerNin, uint _sharesQuantity, uint price) public
     {
